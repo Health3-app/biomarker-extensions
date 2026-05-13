@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width:1400px; height:560px;
+    background: linear-gradient(135deg, #164445 0%, #0a2e2f 35%, #07A06D 100%);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Manrope',sans-serif; overflow:hidden; position:relative;
+  }
+  .deco1 { position:absolute; top:-120px; right:-80px; width:400px; height:400px; border-radius:50%; background:rgba(79,221,195,0.07); }
+  .deco2 { position:absolute; bottom:-150px; left:-60px; width:500px; height:500px; border-radius:50%; background:rgba(7,160,109,0.05); }
+  .deco3 { position:absolute; top:40%; left:35%; width:200px; height:200px; border-radius:50%; background:rgba(79,221,195,0.04); }
+
+  .layout { display:flex; align-items:center; gap:80px; padding:0 80px; position:relative; z-index:1; }
+
+  .text-side { color:white; max-width:580px; }
+  .logo-row { display:flex; align-items:center; gap:14px; margin-bottom:24px; }
+  .logo { width:52px; height:52px; border-radius:12px; background:rgba(255,255,255,0.12); overflow:hidden; box-shadow:0 0 0 1px rgba(255,255,255,0.15); }
+  .logo img { width:52px; height:52px; }
+  .brand { font-size:20px; font-weight:700; color:white; letter-spacing:-0.3px; }
+  .brand span { color:#4FDDC3; opacity:0.8; font-weight:500; font-size:16px; margin-left:6px; }
+  .text-side h1 { font-size:48px; font-weight:800; line-height:1.12; letter-spacing:-0.8px; margin-bottom:18px; }
+  .text-side h1 em { font-style:normal; color:#4FDDC3; }
+  .text-side p { font-size:19px; line-height:1.6; color:rgba(255,255,255,0.65); font-weight:400; margin-bottom:28px; }
+  .pills { display:flex; gap:10px; flex-wrap:wrap; }
+  .pill { padding:8px 18px; background:rgba(79,221,195,0.15); border:1px solid rgba(79,221,195,0.3); border-radius:24px; font-size:14px; font-weight:600; color:#4FDDC3; }
+
+  .popup-frame {
+    width:340px; flex-shrink:0;
+    background:#fff; border-radius:16px;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.08);
+    overflow:hidden;
+    transform: perspective(900px) rotateY(-4deg) rotateX(1deg);
+  }
+  .popup-header { display:flex; align-items:center; gap:10px; padding:12px 16px; background:linear-gradient(135deg,#164445,#104040 40%,#07A06D); color:white; }
+  .popup-header .ph-logo { width:30px; height:30px; border-radius:6px; background:rgba(255,255,255,0.12); overflow:hidden; }
+  .popup-header .ph-logo img { width:30px; height:30px; }
+  .popup-header h2 { font-size:14px; font-weight:700; }
+  .popup-header .sub { font-size:10px; opacity:0.7; }
+  .popup-body { padding:14px 16px; }
+  .label { font-size:10px; font-weight:700; color:#6D8B8B; text-transform:uppercase; letter-spacing:0.7px; margin-bottom:5px; }
+  .chip { display:flex; align-items:center; justify-content:space-between; padding:7px 10px; background:linear-gradient(135deg,rgba(79,221,195,0.1),rgba(7,160,109,0.06)); border:1.5px solid rgba(79,221,195,0.35); border-radius:10px; font-size:12px; font-weight:600; color:#104040; margin-bottom:10px; }
+  .chip .x { color:#9095A1; font-size:16px; }
+  .input { width:100%; padding:8px 12px; border:1.5px solid #4FDDC3; border-radius:10px; font-size:13px; font-weight:500; color:#000; background:#fff; margin-bottom:10px; box-shadow:0 0 0 3px rgba(79,221,195,0.12); font-family:'Manrope',sans-serif; }
+  .unit-row { display:flex; gap:6px; align-items:flex-end; margin-bottom:12px; }
+  .unit-col { flex:1; }
+  .select { width:100%; padding:8px 10px; border:1.5px solid #ECEEEF; border-radius:10px; font-size:12px; font-weight:500; color:#000; background:#fff; font-family:'Manrope',sans-serif; }
+  .swap { width:28px; height:28px; border:1.5px solid #ECEEEF; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:13px; color:#6D8B8B; background:#FAFAFA; margin-bottom:2px; }
+  .result { text-align:center; padding:16px 12px; background:linear-gradient(135deg,rgba(7,160,109,0.06),rgba(79,221,195,0.04) 50%,#FAFAFA); border-radius:14px; border:1px solid rgba(79,221,195,0.2); position:relative; overflow:hidden; }
+  .result::before { content:''; position:absolute; top:-20px; right:-20px; width:60px; height:60px; background:radial-gradient(circle,rgba(79,221,195,0.12),transparent 70%); }
+  .result-val { font-size:28px; font-weight:800; background:linear-gradient(135deg,#104040,#07A06D); -webkit-background-clip:text; -webkit-text-fill-color:transparent; position:relative; }
+  .result-unit { font-size:12px; color:#6D8B8B; margin-top:3px; font-weight:500; }
+</style>
+</head>
+<body>
+  <div class="deco1"></div><div class="deco2"></div><div class="deco3"></div>
+  <div class="layout">
+    <div class="text-side">
+      <div class="logo-row">
+        <div class="logo"><img src="../shared/styles/logo64.png"></div>
+        <div class="brand">Health3 <span>Unit Converter</span></div>
+      </div>
+      <h1>Convert <em>biomarker units</em> instantly</h1>
+      <p>mg/dL to mmol/L, ng/mL to nmol/L, and hundreds more. With evidence-based reference ranges from clinical sources.</p>
+      <div class="pills">
+        <div class="pill">182 biomarkers</div>
+        <div class="pill">935 unit conversions</div>
+        <div class="pill">Works offline</div>
+        <div class="pill">100% free</div>
+      </div>
+    </div>
+    <div class="popup-frame">
+      <div class="popup-header">
+        <div class="ph-logo"><img src="../shared/styles/logo64.png"></div>
+        <div><h2>Unit Converter</h2><div class="sub">Biomarker lab value conversion</div></div>
+      </div>
+      <div class="popup-body">
+        <div class="label">Biomarker</div>
+        <div class="chip">Vitamin D (25-OH) <span class="x">×</span></div>
+        <div class="label">Value</div>
+        <div class="input">30</div>
+        <div class="unit-row">
+          <div class="unit-col"><div class="label">From</div><div class="select">ng/mL</div></div>
+          <div class="swap">⇄</div>
+          <div class="unit-col"><div class="label">To</div><div class="select">nmol/L</div></div>
+        </div>
+        <div class="result">
+          <div class="result-val">78.0</div>
+          <div class="result-unit">nmol/L</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

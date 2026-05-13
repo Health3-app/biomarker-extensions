@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width: 1280px; height: 800px;
+    background: linear-gradient(135deg, #104040 0%, #164445 50%, #07A06D 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
+  .deco1 { position:absolute; top:-100px; left:-60px; width:350px; height:350px; border-radius:50%; background:rgba(79,221,195,0.06); }
+  .deco2 { position:absolute; bottom:-80px; right:-80px; width:300px; height:300px; border-radius:50%; background:rgba(7,160,109,0.08); }
+
+  .layout { display:flex; align-items:center; gap:60px; position:relative; z-index:1; }
+
+  .text-side { color:white; max-width:440px; }
+  .text-side .badge { display:inline-block; padding:6px 16px; background:rgba(79,221,195,0.2); border:1px solid rgba(79,221,195,0.4); border-radius:20px; font-size:13px; font-weight:600; color:#4FDDC3; margin-bottom:20px; }
+  .text-side h1 { font-size:40px; font-weight:800; line-height:1.15; letter-spacing:-0.5px; margin-bottom:16px; }
+  .text-side h1 span { color:#4FDDC3; }
+  .text-side p { font-size:17px; line-height:1.6; color:rgba(255,255,255,0.7); font-weight:400; margin-bottom:24px; }
+  .text-side .step { display:flex; align-items:flex-start; gap:12px; margin-bottom:14px; }
+  .text-side .step-num { width:28px; height:28px; border-radius:50%; background:rgba(79,221,195,0.2); border:1px solid rgba(79,221,195,0.4); display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:700; color:#4FDDC3; flex-shrink:0; margin-top:2px; }
+  .text-side .step-text { font-size:15px; color:rgba(255,255,255,0.85); font-weight:500; line-height:1.5; }
+
+  /* Webpage mockup with tooltip */
+  .browser-frame {
+    width: 520px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden;
+    transform: perspective(800px) rotateY(2deg) rotateX(-1deg);
+  }
+  .browser-bar {
+    height:36px; background:#f3f4f6; display:flex; align-items:center; gap:6px; padding:0 14px;
+    border-bottom:1px solid #e5e7eb;
+  }
+  .dot { width:10px; height:10px; border-radius:50%; }
+  .dot.r { background:#ff5f57; } .dot.y { background:#febc2e; } .dot.g { background:#28c840; }
+  .url-bar { flex:1; margin-left:12px; height:22px; background:#fff; border-radius:6px; font-size:11px; color:#9095A1; padding:0 10px; display:flex; align-items:center; }
+
+  .page-content { padding:24px; font-size:14px; color:#333; line-height:1.8; }
+  .page-content .title { font-size:18px; font-weight:700; color:#111; margin-bottom:8px; }
+  .highlight { background:rgba(79,221,195,0.25); padding:2px 4px; border-radius:3px; font-weight:600; cursor:pointer; }
+
+  /* Tooltip overlay */
+  .tooltip {
+    position:relative;
+    width:340px;
+    background:#fff;
+    border:1px solid rgba(236,238,239,0.8);
+    border-radius:16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1), 0 2px 8px rgba(0,0,0,0.05);
+    margin-top:12px;
+    overflow:hidden;
+  }
+  .tt-header { display:flex; justify-content:space-between; align-items:center; padding:12px 14px 10px; background:linear-gradient(135deg,rgba(7,160,109,0.04),rgba(79,221,195,0.02)); border-bottom:1px solid #ECEEEF; }
+  .tt-name { font-weight:700; font-size:15px; color:#104040; }
+  .tt-close { color:#9095A1; font-size:18px; }
+  .tt-value { display:flex; align-items:center; gap:8px; padding:10px 14px; background:linear-gradient(135deg,rgba(79,221,195,0.06),#FAFAFA); }
+  .tt-val { font-size:20px; font-weight:800; color:#104040; }
+  .tt-desc { padding:10px 14px; font-size:12px; color:#4B5563; line-height:1.7; }
+  .tt-desc .toggle { color:#07A06D; font-weight:600; font-size:11px; cursor:pointer; border:none; background:none; }
+  .tt-ranges { padding:8px 14px; border-top:1px solid #ECEEEF; }
+  .tt-rh { font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:#6D8B8B; margin-bottom:4px; }
+  .tt-rr { padding:4px 0; border-bottom:1px solid #f3f4f6; }
+  .tt-rr:last-child { border-bottom:none; }
+  .tt-rv { font-size:12px; font-weight:600; color:#104040; display:flex; align-items:center; gap:5px; }
+  .tt-rt { font-size:8px; font-weight:700; text-transform:uppercase; padding:1px 5px; border-radius:3px; background:rgba(7,160,109,0.1); color:#07A06D; }
+  .tt-rc { font-size:10px; color:#9095A1; margin-top:1px; }
+  .tt-topics { padding:4px 14px 10px; display:flex; flex-wrap:wrap; gap:4px; }
+  .tt-topic { padding:3px 9px; background:linear-gradient(135deg,rgba(79,221,195,0.08),rgba(7,160,109,0.04)); border:1px solid rgba(79,221,195,0.2); border-radius:20px; font-size:10px; font-weight:600; color:#104040; }
+  .tt-footer { padding:10px 14px; border-top:1px solid #ECEEEF; text-align:center; background:linear-gradient(180deg,#fff,rgba(79,221,195,0.03)); }
+  .tt-footer a { color:#07A06D; font-size:12px; font-weight:600; text-decoration:none; }
+</style>
+</head>
+<body>
+  <div class="deco1"></div><div class="deco2"></div>
+  <div class="layout">
+    <div class="text-side">
+      <div class="badge">Free Chrome Extension</div>
+      <h1>Understand any <span>biomarker</span> instantly</h1>
+      <p>Highlight a biomarker name on any webpage. Right-click. Get instant explanation with reference ranges.</p>
+      <div class="step"><div class="step-num">1</div><div class="step-text">Highlight any biomarker name on a webpage</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-text">Right-click → "Explain with Health3"</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-text">See what it means, reference ranges, and related health topics</div></div>
+    </div>
+    <div>
+      <div class="browser-frame">
+        <div class="browser-bar">
+          <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+          <div class="url-bar">health-article.example.com</div>
+        </div>
+        <div class="page-content">
+          <div class="title">Understanding Your Blood Test Results</div>
+          Your doctor ordered a basic metabolic panel. Your <span class="highlight">Creatinine</span> level was 1.2 mg/dL and your fasting glucose was 95 mg/dL. Let's review what these mean for your kidney and metabolic health...
+        </div>
+      </div>
+      <div class="tooltip">
+        <div class="tt-header"><div class="tt-name">Creatinine</div><div class="tt-close">×</div></div>
+        <div class="tt-value"><span class="tt-val">1.2 mg/dL</span></div>
+        <div class="tt-desc">Creatinine is a waste product formed when your muscles use creatine for energy. Your kidneys filter creatinine from the blood, so the level helps estimate kidney filtration... <span class="toggle">Show more</span></div>
+        <div class="tt-ranges">
+          <div class="tt-rh">Reference ranges (varies by age, sex, source):</div>
+          <div class="tt-rr"><div class="tt-rv"><span class="tt-rt">Normal</span> 44 – 97 µmol/L</div><div class="tt-rc">Female · All ages · Luke (Clinical Methods), 1990</div></div>
+          <div class="tt-rr"><div class="tt-rv"><span class="tt-rt">Normal</span> 53 – 106 µmol/L</div><div class="tt-rc">Male · All ages · Luke (Clinical Methods), 1990</div></div>
+        </div>
+        <div class="tt-topics"><span class="tt-topic">Kidney Health</span></div>
+        <div class="tt-footer"><a>See your personalized ranges in Health3 →</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

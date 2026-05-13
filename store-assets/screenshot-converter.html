@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width: 1280px; height: 800px;
+    background: linear-gradient(135deg, #164445 0%, #0a2e2f 40%, #07A06D 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
+  /* Decorative circles */
+  .deco1 { position:absolute; top:-80px; right:-60px; width:300px; height:300px; border-radius:50%; background:rgba(79,221,195,0.08); }
+  .deco2 { position:absolute; bottom:-100px; left:-40px; width:400px; height:400px; border-radius:50%; background:rgba(7,160,109,0.06); }
+  .deco3 { position:absolute; top:50%; left:10%; width:150px; height:150px; border-radius:50%; background:rgba(79,221,195,0.05); }
+
+  .layout { display:flex; align-items:center; gap:80px; position:relative; z-index:1; }
+
+  .text-side { color:white; max-width:480px; }
+  .text-side .badge { display:inline-block; padding:6px 16px; background:rgba(79,221,195,0.2); border:1px solid rgba(79,221,195,0.4); border-radius:20px; font-size:13px; font-weight:600; color:#4FDDC3; margin-bottom:20px; }
+  .text-side h1 { font-size:42px; font-weight:800; line-height:1.15; letter-spacing:-0.5px; margin-bottom:16px; }
+  .text-side h1 span { color:#4FDDC3; }
+  .text-side p { font-size:18px; line-height:1.6; color:rgba(255,255,255,0.7); font-weight:400; }
+  .text-side .features { margin-top:24px; display:flex; flex-direction:column; gap:10px; }
+  .text-side .feat { display:flex; align-items:center; gap:10px; font-size:15px; color:rgba(255,255,255,0.85); font-weight:500; }
+  .text-side .feat-dot { width:8px; height:8px; border-radius:50%; background:#4FDDC3; flex-shrink:0; }
+
+  /* Popup mockup */
+  .popup-frame {
+    width:380px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.1);
+    overflow: hidden;
+    transform: perspective(800px) rotateY(-3deg) rotateX(1deg);
+  }
+
+  .popup-header {
+    display:flex; align-items:center; gap:10px; padding:14px 18px;
+    background: linear-gradient(135deg, #164445 0%, #104040 40%, #07A06D 100%);
+    color:white;
+  }
+  .popup-header .logo { width:36px; height:36px; border-radius:8px; background:rgba(255,255,255,0.12); overflow:hidden; }
+  .popup-header .logo img { width:36px; height:36px; }
+  .popup-header h2 { font-size:16px; font-weight:700; margin:0; }
+  .popup-header .sub { font-size:11px; opacity:0.7; }
+
+  .popup-body { padding:16px 18px; }
+  .label { font-size:11px; font-weight:700; color:#6D8B8B; text-transform:uppercase; letter-spacing:0.8px; margin-bottom:6px; }
+  .input { width:100%; padding:10px 14px; border:1.5px solid #ECEEEF; border-radius:12px; font-size:14px; font-weight:500; color:#000; background:#fff; margin-bottom:12px; font-family:'Manrope',sans-serif; }
+  .input.active { border-color:#4FDDC3; box-shadow: 0 0 0 3px rgba(79,221,195,0.15); }
+  .chip { display:inline-flex; align-items:center; justify-content:space-between; padding:8px 12px; background:linear-gradient(135deg,rgba(79,221,195,0.1),rgba(7,160,109,0.06)); border:1.5px solid rgba(79,221,195,0.35); border-radius:12px; font-size:13px; font-weight:600; color:#104040; width:100%; margin-bottom:12px; }
+  .chip .x { color:#9095A1; font-size:18px; }
+
+  .unit-row { display:flex; gap:8px; align-items:flex-end; margin-bottom:14px; }
+  .unit-col { flex:1; }
+  .select { width:100%; padding:10px 14px; border:1.5px solid #ECEEEF; border-radius:12px; font-size:14px; font-weight:500; color:#000; background:#fff; font-family:'Manrope',sans-serif; appearance:none; }
+  .swap { width:34px; height:34px; border:1.5px solid #ECEEEF; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:15px; color:#6D8B8B; background:linear-gradient(135deg,#FAFAFA,#fff); margin-bottom:2px; }
+
+  .result-card {
+    text-align:center; padding:20px 16px;
+    background:linear-gradient(135deg,rgba(7,160,109,0.06),rgba(79,221,195,0.04) 50%,#FAFAFA);
+    border-radius:16px; border:1px solid rgba(79,221,195,0.2);
+    margin-bottom:12px; position:relative; overflow:hidden;
+  }
+  .result-card::before { content:''; position:absolute; top:-30px; right:-30px; width:80px; height:80px; background:radial-gradient(circle,rgba(79,221,195,0.12),transparent 70%); }
+  .result-value { font-size:32px; font-weight:800; background:linear-gradient(135deg,#104040,#07A06D); -webkit-background-clip:text; -webkit-text-fill-color:transparent; position:relative; }
+  .result-unit { font-size:13px; color:#6D8B8B; margin-top:4px; font-weight:500; }
+
+  .ranges-header { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:#6D8B8B; margin-bottom:6px; }
+  .range-row { padding:8px 12px; background:#fff; border-radius:8px; border:1px solid #ECEEEF; margin-bottom:4px; }
+  .range-vals { display:flex; align-items:center; gap:8px; }
+  .range-tag { font-size:9px; font-weight:700; text-transform:uppercase; padding:2px 7px; border-radius:4px; }
+  .range-tag.normal { background:rgba(7,160,109,0.1); color:#07A06D; }
+  .range-bounds { font-weight:700; font-size:13px; color:#104040; }
+  .range-criteria { font-size:11px; color:#9095A1; margin-top:2px; }
+
+  .popup-footer { padding:12px 18px; border-top:1px solid #ECEEEF; text-align:center; background:linear-gradient(180deg,#fff,rgba(79,221,195,0.03)); }
+  .popup-footer a { color:#07A06D; font-size:12px; font-weight:600; text-decoration:none; }
+</style>
+</head>
+<body>
+  <div class="deco1"></div><div class="deco2"></div><div class="deco3"></div>
+  <div class="layout">
+    <div class="text-side">
+      <div class="badge">Free Chrome Extension</div>
+      <h1>Convert <span>biomarker units</span> instantly</h1>
+      <p>mg/dL to mmol/L, ng/mL to nmol/L, and hundreds more. With reference ranges from clinical sources.</p>
+      <div class="features">
+        <div class="feat"><div class="feat-dot"></div>182 biomarkers supported</div>
+        <div class="feat"><div class="feat-dot"></div>935 unit conversions</div>
+        <div class="feat"><div class="feat-dot"></div>Evidence-based reference ranges</div>
+        <div class="feat"><div class="feat-dot"></div>Works offline — no data sent anywhere</div>
+      </div>
+    </div>
+    <div class="popup-frame">
+      <div class="popup-header">
+        <div class="logo"><img src="../shared/styles/logo64.png"></div>
+        <div><h2>Unit Converter</h2><div class="sub">Biomarker lab value conversion</div></div>
+      </div>
+      <div class="popup-body">
+        <div class="label">Biomarker</div>
+        <div class="chip">Vitamin D (25-OH) <span class="x">×</span></div>
+        <div class="label">Value</div>
+        <div class="input active">30</div>
+        <div class="unit-row">
+          <div class="unit-col"><div class="label">From</div><div class="select">ng/mL</div></div>
+          <div class="swap">⇄</div>
+          <div class="unit-col"><div class="label">To</div><div class="select">nmol/L</div></div>
+        </div>
+        <div class="result-card">
+          <div class="result-value">78.0</div>
+          <div class="result-unit">nmol/L</div>
+        </div>
+        <div class="ranges-header">Reference ranges (varies by age, sex, source)</div>
+        <div class="range-row"><div class="range-vals"><span class="range-tag normal">Normal</span><span class="range-bounds">25 – 80 ng/mL</span></div><div class="range-criteria">All · All ages · Pagana (Mosby's), 2019</div></div>
+      </div>
+      <div class="popup-footer"><a>Get personalized ranges for your profile →</a></div>
+    </div>
+  </div>
+</body>
+</html>

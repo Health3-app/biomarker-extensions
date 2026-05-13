@@ -1,0 +1,10 @@
+# Build output
+dist/
+
+# Dev symlinks (shared/ is copied into each extension by build.sh)
+unit-converter/shared
+lab-explainer/shared
+
+# OS files
+.DS_Store
+Thumbs.db

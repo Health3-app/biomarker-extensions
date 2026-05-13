@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width:1200px; height:1200px;
+    background: linear-gradient(145deg, #0a2020 0%, #164445 30%, #104040 60%, #07A06D 100%);
+    font-family:'Manrope',sans-serif; overflow:hidden; position:relative;
+  }
+  /* Decorative elements */
+  .deco1 { position:absolute; top:-100px; right:-80px; width:400px; height:400px; border-radius:50%; background:rgba(79,221,195,0.06); }
+  .deco2 { position:absolute; bottom:-120px; left:-60px; width:500px; height:500px; border-radius:50%; background:rgba(7,160,109,0.05); }
+  .deco3 { position:absolute; top:45%; right:5%; width:180px; height:180px; border-radius:50%; background:rgba(79,221,195,0.04); }
+  .deco4 { position:absolute; top:15%; left:8%; width:100px; height:100px; border-radius:50%; background:rgba(79,221,195,0.03); }
+
+  /* Grid lines accent */
+  .grid { position:absolute; inset:0; background-image:
+    linear-gradient(rgba(79,221,195,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(79,221,195,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .content { position:relative; z-index:1; padding:60px 70px; height:100%; display:flex; flex-direction:column; }
+
+  /* Top bar */
+  .top-bar { display:flex; align-items:center; justify-content:space-between; margin-bottom:40px; }
+  .logo-row { display:flex; align-items:center; gap:14px; }
+  .logo { width:48px; height:48px; border-radius:10px; background:rgba(255,255,255,0.12); overflow:hidden; box-shadow:0 0 0 1px rgba(255,255,255,0.15); }
+  .logo img { width:48px; height:48px; }
+  .brand { font-size:22px; font-weight:700; color:white; }
+  .new-badge { padding:8px 20px; background:linear-gradient(135deg,#4FDDC3,#07A06D); border-radius:24px; font-size:14px; font-weight:700; color:white; letter-spacing:0.5px; text-transform:uppercase; box-shadow:0 4px 16px rgba(7,160,109,0.4); }
+
+  /* Main headline */
+  .headline { margin-bottom:10px; }
+  .headline h1 { font-size:56px; font-weight:800; color:white; line-height:1.1; letter-spacing:-1px; }
+  .headline h1 em { font-style:normal; color:#4FDDC3; }
+  .headline p { font-size:20px; color:rgba(255,255,255,0.55); font-weight:400; margin-top:14px; line-height:1.5; }
+
+  /* Two extension cards */
+  .cards { display:flex; gap:24px; flex:1; align-items:center; }
+
+  .ext-card {
+    flex:1;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius:20px;
+    padding:28px;
+    position:relative;
+    overflow:hidden;
+    transition: all 0.3s;
+  }
+  .ext-card::before {
+    content:''; position:absolute; top:0; left:0; right:0; height:3px;
+    background:linear-gradient(90deg, #4FDDC3, #07A06D);
+  }
+  .ext-card .card-icon { font-size:36px; margin-bottom:14px; }
+  .ext-card h3 { font-size:22px; font-weight:700; color:white; margin-bottom:8px; letter-spacing:-0.3px; }
+  .ext-card p { font-size:14px; color:rgba(255,255,255,0.6); line-height:1.6; margin-bottom:16px; }
+  .ext-card .card-features { display:flex; flex-direction:column; gap:8px; }
+  .ext-card .feat { display:flex; align-items:center; gap:8px; font-size:13px; color:rgba(255,255,255,0.8); font-weight:500; }
+  .ext-card .feat-check { width:18px; height:18px; border-radius:50%; background:rgba(79,221,195,0.2); border:1px solid rgba(79,221,195,0.4); display:flex; align-items:center; justify-content:center; font-size:10px; color:#4FDDC3; flex-shrink:0; }
+
+  /* Bottom CTA */
+  .bottom-bar { display:flex; align-items:center; justify-content:space-between; margin-top:auto; padding-top:30px; }
+  .cta { padding:14px 32px; background:linear-gradient(135deg,#4FDDC3,#07A06D); border-radius:30px; font-size:16px; font-weight:700; color:white; box-shadow:0 6px 20px rgba(7,160,109,0.3); display:flex; align-items:center; gap:8px; }
+  .cta .arrow { font-size:18px; }
+  .store-text { font-size:15px; color:rgba(255,255,255,0.45); font-weight:500; }
+  .store-text span { color:#4FDDC3; font-weight:600; }
+</style>
+</head>
+<body>
+  <div class="deco1"></div><div class="deco2"></div><div class="deco3"></div><div class="deco4"></div>
+  <div class="grid"></div>
+
+  <div class="content">
+    <div class="top-bar">
+      <div class="logo-row">
+        <div class="logo"><img src="../shared/styles/logo64.png"></div>
+        <div class="brand">Health3</div>
+      </div>
+      <div class="new-badge">New &amp; Free</div>
+    </div>
+
+    <div class="headline">
+      <h1>Two free <em>Chrome extensions</em><br>for your blood work</h1>
+      <p>Understand your biomarkers better — right in your browser. No signup, no data collected.</p>
+    </div>
+
+    <div class="cards">
+      <div class="ext-card">
+        <div class="card-icon">🔄</div>
+        <h3>Unit Converter</h3>
+        <p>Convert any lab value between measurement units instantly</p>
+        <div class="card-features">
+          <div class="feat"><div class="feat-check">✓</div>182 biomarkers</div>
+          <div class="feat"><div class="feat-check">✓</div>935 unit conversions</div>
+          <div class="feat"><div class="feat-check">✓</div>mg/dL ↔ mmol/L and more</div>
+          <div class="feat"><div class="feat-check">✓</div>Reference ranges included</div>
+        </div>
+      </div>
+
+      <div class="ext-card">
+        <div class="card-icon">🔍</div>
+        <h3>Biomarker Explainer</h3>
+        <p>Right-click any biomarker name on any webpage for instant lookup</p>
+        <div class="card-features">
+          <div class="feat"><div class="feat-check">✓</div>Works on any website</div>
+          <div class="feat"><div class="feat-check">✓</div>Plain-language explanations</div>
+          <div class="feat"><div class="feat-check">✓</div>Reference ranges by age &amp; sex</div>
+          <div class="feat"><div class="feat-check">✓</div>Related health topics</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <div class="cta">Get them on Chrome Web Store <span class="arrow">→</span></div>
+      <div class="store-text">Available now · <span>100% free</span> · No data collected</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="shared/styles/health3.css">
+  <link rel="stylesheet" href="popup.css">
+  <title>Biomarker Explainer</title>
+</head>
+<body>
+  <div class="h3-header">
+    <div class="h3-header-icon">
+      <img src="shared/styles/logo64.png" alt="Health3">
+    </div>
+    <div>
+      <h1>Biomarker Explainer</h1>
+      <div class="h3-subtitle">Understand your biomarkers instantly</div>
+    </div>
+  </div>
+
+  <div class="explainer-body h3-gap">
+    <!-- Search -->
+    <div>
+      <label class="h3-label">Look up a biomarker</label>
+      <input type="text" id="searchInput" class="h3-input"
+             placeholder="Search (e.g. Cholesterol, Iron, CRP)..." autocomplete="off">
+    </div>
+
+    <!-- Results list -->
+    <div id="searchResults" class="h3-scroll"></div>
+
+    <!-- Biomarker detail view -->
+    <div id="bioDetail" class="h3-hidden">
+      <div class="detail-card h3-animate-in">
+        <div class="detail-header">
+          <div>
+            <h2 id="bioName"></h2>
+            <div id="bioEnName" class="detail-en-name"></div>
+          </div>
+        </div>
+
+        <p id="bioDesc" class="detail-desc"></p>
+
+        <div id="rangesSection" class="detail-section h3-hidden">
+          <div class="detail-section-title">
+            <span class="section-icon">📊</span>
+            Reference Ranges
+            <span class="section-note">(varies by age, sex, source)</span>
+          </div>
+          <div id="rangesList" class="ranges-list"></div>
+        </div>
+
+        <div id="unitsSection" class="detail-section h3-hidden">
+          <div class="detail-section-title">
+            <span class="section-icon">⚖️</span>
+            Measurement Units
+          </div>
+          <div id="unitsList" class="units-list"></div>
+        </div>
+
+        <div id="topicsSection" class="detail-section h3-hidden">
+          <div class="detail-section-title">
+            <span class="section-icon">🏥</span>
+            Related Health Topics
+          </div>
+          <div id="topicsList" class="topics-list"></div>
+        </div>
+      </div>
+
+      <button id="backBtn" class="h3-btn h3-btn-secondary back-btn">
+        ← Back to search
+      </button>
+    </div>
+
+    <!-- Usage hint -->
+    <div id="usageHint" class="usage-hint">
+      <div class="hint-glow"></div>
+      <div class="hint-content">
+        <div class="hint-icon-wrap">💡</div>
+        <div class="hint-text">
+          <strong>Pro tip:</strong> Highlight any biomarker on a webpage, right-click,
+          and select <em>"Explain with Health3"</em>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="h3-footer">
+    <a href="https://health3.app?utm_source=chrome_extension&utm_medium=lab_explainer&utm_campaign=footer_link" target="_blank">
+      Get personalized ranges for your profile
+    </a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

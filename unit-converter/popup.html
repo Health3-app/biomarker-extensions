@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="shared/styles/health3.css">
+  <link rel="stylesheet" href="popup.css">
+  <title>Biomarker Unit Converter</title>
+</head>
+<body>
+  <div class="h3-header">
+    <div class="h3-header-icon">
+      <img src="shared/styles/logo64.png" alt="Health3">
+    </div>
+    <div>
+      <h1>Unit Converter</h1>
+      <div class="h3-subtitle">Biomarker lab value conversion</div>
+    </div>
+  </div>
+
+  <div class="converter-body h3-gap">
+    <!-- Biomarker selector -->
+    <div>
+      <label class="h3-label">Biomarker</label>
+      <input type="text" id="biomarkerSearch" class="h3-input"
+             placeholder="Search (e.g. Vitamin D, TSH, HbA1c)..."
+             autocomplete="off">
+      <div id="searchResults" class="search-results h3-hidden"></div>
+      <div id="selectedBiomarker" class="selected-biomarker h3-hidden"></div>
+    </div>
+
+    <!-- Value input -->
+    <div>
+      <label class="h3-label">Value</label>
+      <input type="number" id="valueInput" class="h3-input"
+             placeholder="Enter your lab value..." step="any">
+    </div>
+
+    <!-- Unit selectors -->
+    <div class="unit-row">
+      <div class="unit-col">
+        <label class="h3-label">From</label>
+        <select id="unitFrom" class="h3-select" disabled>
+          <option value="">—</option>
+        </select>
+      </div>
+      <button id="swapBtn" class="swap-btn" title="Swap units">⇄</button>
+      <div class="unit-col">
+        <label class="h3-label">To</label>
+        <select id="unitTo" class="h3-select" disabled>
+          <option value="">—</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Result -->
+    <div id="resultArea" class="h3-hidden">
+      <div class="result-card">
+        <div class="result-value" id="resultValue">—</div>
+        <div class="result-unit" id="resultUnit"></div>
+      </div>
+      <div id="rangesSection" class="ranges-section h3-hidden">
+        <div class="ranges-header">Reference ranges (varies by age, sex, source)</div>
+        <div id="rangesList" class="ranges-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="h3-footer">
+    <a href="https://health3.app?utm_source=chrome_extension&utm_medium=unit_converter&utm_campaign=footer_link" target="_blank">
+      Get personalized ranges for your profile
+    </a>
+  </div>
+
+  <script src="shared/converter.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

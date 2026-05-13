@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width:1200px; height:628px;
+    background: linear-gradient(135deg, #0a2020 0%, #164445 30%, #104040 55%, #07A06D 100%);
+    font-family:'Manrope',sans-serif; overflow:hidden; position:relative;
+  }
+  .deco1 { position:absolute; top:-80px; right:-60px; width:300px; height:300px; border-radius:50%; background:rgba(79,221,195,0.06); }
+  .deco2 { position:absolute; bottom:-100px; left:-40px; width:350px; height:350px; border-radius:50%; background:rgba(7,160,109,0.05); }
+  .grid { position:absolute; inset:0; background-image:
+    linear-gradient(rgba(79,221,195,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(79,221,195,0.025) 1px, transparent 1px);
+    background-size:50px 50px;
+  }
+
+  .content { position:relative; z-index:1; padding:40px 56px; height:100%; display:flex; flex-direction:column; }
+
+  .top-bar { display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; }
+  .logo-row { display:flex; align-items:center; gap:12px; }
+  .logo { width:40px; height:40px; border-radius:8px; background:rgba(255,255,255,0.12); overflow:hidden; box-shadow:0 0 0 1px rgba(255,255,255,0.15); }
+  .logo img { width:40px; height:40px; }
+  .brand { font-size:19px; font-weight:700; color:white; }
+  .new-badge { padding:6px 16px; background:linear-gradient(135deg,#4FDDC3,#07A06D); border-radius:20px; font-size:12px; font-weight:700; color:white; letter-spacing:0.5px; text-transform:uppercase; box-shadow:0 4px 12px rgba(7,160,109,0.35); }
+
+  .main { display:flex; gap:50px; flex:1; align-items:center; }
+
+  .left { max-width:420px; }
+  .left h1 { font-size:40px; font-weight:800; color:white; line-height:1.1; letter-spacing:-0.8px; margin-bottom:12px; }
+  .left h1 em { font-style:normal; color:#4FDDC3; }
+  .left p { font-size:16px; color:rgba(255,255,255,0.5); font-weight:400; line-height:1.5; margin-bottom:20px; }
+  .cta { display:inline-flex; align-items:center; gap:8px; padding:12px 28px; background:linear-gradient(135deg,#4FDDC3,#07A06D); border-radius:26px; font-size:15px; font-weight:700; color:white; box-shadow:0 4px 16px rgba(7,160,109,0.3); }
+
+  .right { display:flex; gap:16px; flex:1; }
+
+  .ext-card {
+    flex:1;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius:16px;
+    padding:22px;
+    position:relative; overflow:hidden;
+  }
+  .ext-card::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,#4FDDC3,#07A06D); }
+  .ext-card .card-icon { font-size:28px; margin-bottom:10px; }
+  .ext-card h3 { font-size:17px; font-weight:700; color:white; margin-bottom:6px; }
+  .ext-card p { font-size:12px; color:rgba(255,255,255,0.5); line-height:1.5; margin-bottom:12px; }
+  .feat { display:flex; align-items:center; gap:6px; font-size:12px; color:rgba(255,255,255,0.75); font-weight:500; margin-bottom:6px; }
+  .feat-check { width:15px; height:15px; border-radius:50%; background:rgba(79,221,195,0.2); border:1px solid rgba(79,221,195,0.4); display:flex; align-items:center; justify-content:center; font-size:8px; color:#4FDDC3; flex-shrink:0; }
+
+  .bottom { margin-top:auto; text-align:right; font-size:13px; color:rgba(255,255,255,0.35); font-weight:500; }
+  .bottom span { color:#4FDDC3; font-weight:600; }
+</style>
+</head>
+<body>
+  <div class="deco1"></div><div class="deco2"></div>
+  <div class="grid"></div>
+  <div class="content">
+    <div class="top-bar">
+      <div class="logo-row">
+        <div class="logo"><img src="../shared/styles/logo64.png"></div>
+        <div class="brand">Health3</div>
+      </div>
+      <div class="new-badge">New &amp; Free</div>
+    </div>
+
+    <div class="main">
+      <div class="left">
+        <h1>Two free <em>Chrome extensions</em> for your blood work</h1>
+        <p>Convert units, look up biomarkers, and see reference ranges — right in your browser.</p>
+        <div class="cta">Get them free →</div>
+      </div>
+
+      <div class="right">
+        <div class="ext-card">
+          <div class="card-icon">🔄</div>
+          <h3>Unit Converter</h3>
+          <p>Convert any lab value between units</p>
+          <div class="feat"><div class="feat-check">✓</div>182 biomarkers</div>
+          <div class="feat"><div class="feat-check">✓</div>935 conversions</div>
+          <div class="feat"><div class="feat-check">✓</div>Reference ranges</div>
+        </div>
+        <div class="ext-card">
+          <div class="card-icon">🔍</div>
+          <h3>Biomarker Explainer</h3>
+          <p>Right-click any biomarker on any page</p>
+          <div class="feat"><div class="feat-check">✓</div>Works everywhere</div>
+          <div class="feat"><div class="feat-check">✓</div>Clear explanations</div>
+          <div class="feat"><div class="feat-check">✓</div>Health topics</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">Available now · <span>100% free</span> · No data collected</div>
+  </div>
+</body>
+</html>

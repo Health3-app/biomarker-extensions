@@ -1,0 +1,4677 @@
+[
+  {
+    "biomarker_key": "afp",
+    "unit_name": "IU/mL",
+    "unit_key": "iu_ml"
+  },
+  {
+    "biomarker_key": "afp",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "afp",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "afp",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "afp",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "afp",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "albumin",
+    "unit_name": "g%",
+    "unit_key": "gperc"
+  },
+  {
+    "biomarker_key": "albumin",
+    "unit_name": "g/100mL",
+    "unit_key": "g_100ml"
+  },
+  {
+    "biomarker_key": "albumin",
+    "unit_name": "g/dL",
+    "unit_key": "g_dl"
+  },
+  {
+    "biomarker_key": "albumin",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "albumin",
+    "unit_name": "mg/mL",
+    "unit_key": "mg_ml"
+  },
+  {
+    "biomarker_key": "albumin",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "albumin",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "albumin_globulin_ratio",
+    "unit_name": "ratio",
+    "unit_key": "ratio"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "alp",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "alpha_1_globulin",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "alpha_1_globulin",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "alpha_2_globulin",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "alpha_2_globulin",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "alt",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "aluminium",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "aluminium",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "amylase_pancreatic",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "amylase_total",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "androstenedione",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "androstenedione",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "androstenedione",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "androstenedione",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "androstenedione",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "androstenedione",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "androstenedione",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "anion_gap",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "anion_gap",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "anti_mullerian_hormone",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "anti_mullerian_hormone",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "anti_mullerian_hormone",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "anti_mullerian_hormone",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "anti_mullerian_hormone",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "anti_mullerian_hormone",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "apoa1",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "apoa1",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "apoa1",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "apoa1",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "apoa1",
+    "unit_name": "mg/mL",
+    "unit_key": "mg_ml"
+  },
+  {
+    "biomarker_key": "apoa1",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "apoa1",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "apob",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "apob",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "apob",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "apob",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "apob",
+    "unit_name": "mg/mL",
+    "unit_key": "mg_ml"
+  },
+  {
+    "biomarker_key": "apob",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "apob",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "apob_apoa1_ratio",
+    "unit_name": "ratio",
+    "unit_key": "ratio"
+  },
+  {
+    "biomarker_key": "aptt",
+    "unit_name": "s",
+    "unit_key": "s"
+  },
+  {
+    "biomarker_key": "arsenic",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "arsenic",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "ast",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "1000/mm³",
+    "unit_key": "1000_per_mm3"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "1000/µL",
+    "unit_key": "1000_per_ul"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "×10³/mm³",
+    "unit_key": "x10_3_mm3"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "G/L",
+    "unit_key": "g_per_l"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "Gpt/L",
+    "unit_key": "gpt_per_l"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "k/mm³",
+    "unit_key": "k_per_mm3"
+  },
+  {
+    "biomarker_key": "basophils_abs",
+    "unit_name": "k/µL",
+    "unit_key": "k_per_ul"
+  },
+  {
+    "biomarker_key": "basophils_pct",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "basophils_pct",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "beta_1_globulin",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "beta_1_globulin",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "beta_2_globulin",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "beta_2_globulin",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "beta2_microglobulin",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "beta2_microglobulin",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "beta2_microglobulin",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "beta2_microglobulin",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "beta2_microglobulin",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "beta2_microglobulin",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "beta2_microglobulin",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "beta2_microglobulin",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "bilirubin_direct",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "bilirubin_direct",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "bilirubin_direct",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "bilirubin_direct",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "bilirubin_direct",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "bilirubin_direct",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "bilirubin_direct",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "bilirubin_total",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "bilirubin_total",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "bilirubin_total",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "bilirubin_total",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "bilirubin_total",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "bilirubin_total",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "bilirubin_total",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "bloodgluco",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "bloodgluco",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "bloodgluco",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "bloodgluco",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "bloodgluco",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "bloodgluco",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "bloodgluco",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "ca15_3",
+    "unit_name": "kU/L",
+    "unit_key": "ku_l"
+  },
+  {
+    "biomarker_key": "ca15_3",
+    "unit_name": "U/mL",
+    "unit_key": "u_ml"
+  },
+  {
+    "biomarker_key": "ca19_9",
+    "unit_name": "kU/L",
+    "unit_key": "ku_l"
+  },
+  {
+    "biomarker_key": "ca19_9",
+    "unit_name": "U/mL",
+    "unit_key": "u_ml"
+  },
+  {
+    "biomarker_key": "ca72_4",
+    "unit_name": "kU/L",
+    "unit_key": "ku_l"
+  },
+  {
+    "biomarker_key": "ca72_4",
+    "unit_name": "U/mL",
+    "unit_key": "u_ml"
+  },
+  {
+    "biomarker_key": "calcitriol",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "calcitriol",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "calcitriol",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "calcitriol",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "calcitriol",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "calcitriol",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "calcium",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "calcium",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "calcium",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "calcium",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "calcium",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "calcium",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "calcium",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "calcium",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "calcium_corrected",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "calcium_corrected",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "calcium_ionized",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "calcium_ionized",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "calcium_ionized",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "cea",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "cea",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "cea",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "cea",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "cea",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "cea",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "ceruloplasmin",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "ceruloplasmin",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "ceruloplasmin",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "ceruloplasmin",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "ceruloplasmin",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "ceruloplasmin",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "ceruloplasmin",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "chloride",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "chloride",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "kU/L",
+    "unit_key": "ku_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "cholinesterase",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "ck",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "co2_total",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "co2_total",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "co2_total",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "co2_total",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "co2_total",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "co2_total",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "co2_total",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "co2_total",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "copper_free",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "copper_free",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "copper_free",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "copper_free",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "copper_free",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "copper_free",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "copper_free",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "copper_total",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "copper_total",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "copper_total",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "copper_total",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "copper_total",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "copper_total",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "copper_total",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "coq10",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "coq10",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "cortisol_free_serum",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "cortisol_free_serum",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "cortisol_free_serum",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "cortisol_free_serum",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "cortisol_free_serum",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "cortisol_free_serum",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "cortisol_free_serum",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "cortisol_total_serum",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "cortisol_total_serum",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "cortisol_total_serum",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "cortisol_total_serum",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "cortisol_total_serum",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "cortisol_total_serum",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "cortisol_total_serum",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "c_peptide",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "c_peptide",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "c_peptide",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "c_peptide",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "c_peptide",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "c_peptide",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "c_peptide",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "creatinine",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "creatinine",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "creatinine",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "creatinine",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "creatinine",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "creatinine",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "creatinine",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "crp",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "crp",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "crp",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "crp",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "crp",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "crp",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "crp",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "cyfra21_1",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "cyfra21_1",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "cyfra21_1",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "cyfra21_1",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "cyfra21_1",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "cystatin_c",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "cystatin_c",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "cystatin_c",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "cystatin_c",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "cystatin_c",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "cystatin_c",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "dha_absolute",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "dha_absolute",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "dheas",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "dheas",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "dheas",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "dheas",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "dheas",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "dheas",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "dht",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "dht",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "dht",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "dht",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "dht",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "dht",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "dht",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "dht",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "egfr_ckd_epi_2009",
+    "unit_name": "mL/min/1.73 m²",
+    "unit_key": "ml_min_1_73_m2"
+  },
+  {
+    "biomarker_key": "egfr_ckd_epi_2009",
+    "unit_name": "mL/s/1.73 m²",
+    "unit_key": "ml_s_1_73_m2"
+  },
+  {
+    "biomarker_key": "egfr_creatinine",
+    "unit_name": "mL/min/1.73 m²",
+    "unit_key": "ml_min_1_73_m2"
+  },
+  {
+    "biomarker_key": "egfr_creatinine",
+    "unit_name": "mL/s/1.73 m²",
+    "unit_key": "ml_s_1_73_m2"
+  },
+  {
+    "biomarker_key": "egfr_cystatin_c",
+    "unit_name": "mL/min/1.73 m²",
+    "unit_key": "ml_min_1_73_m2"
+  },
+  {
+    "biomarker_key": "egfr_cystatin_c",
+    "unit_name": "mL/s/1.73 m²",
+    "unit_key": "ml_s_1_73_m2"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "1000/mm³",
+    "unit_key": "1000_per_mm3"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "1000/µL",
+    "unit_key": "1000_per_ul"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "×10³/mm³",
+    "unit_key": "x10_3_mm3"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "G/L",
+    "unit_key": "g_per_l"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "Gpt/L",
+    "unit_key": "gpt_per_l"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "k/mm³",
+    "unit_key": "k_per_mm3"
+  },
+  {
+    "biomarker_key": "eosinophils_abs",
+    "unit_name": "k/µL",
+    "unit_key": "k_per_ul"
+  },
+  {
+    "biomarker_key": "eosinophils_pct",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "eosinophils_pct",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "epa_absolute",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "epa_absolute",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "esr",
+    "unit_name": "mm/h",
+    "unit_key": "mm_h"
+  },
+  {
+    "biomarker_key": "esr",
+    "unit_name": "mm/hr",
+    "unit_key": "mm_hr"
+  },
+  {
+    "biomarker_key": "estradiol",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "estradiol",
+    "unit_name": "pg%",
+    "unit_key": "pgperc"
+  },
+  {
+    "biomarker_key": "estradiol",
+    "unit_name": "pg/100mL",
+    "unit_key": "pg_100ml"
+  },
+  {
+    "biomarker_key": "estradiol",
+    "unit_name": "pg/dL",
+    "unit_key": "pg_dl"
+  },
+  {
+    "biomarker_key": "estradiol",
+    "unit_name": "pg/L",
+    "unit_key": "pg_l"
+  },
+  {
+    "biomarker_key": "estradiol",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "estradiol",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "estrone",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "estrone",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "estrone",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "estrone",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "estrone",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "estrone",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "fai",
+    "unit_name": "index",
+    "unit_key": "index"
+  },
+  {
+    "biomarker_key": "ferritin",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "ferritin",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "ferritin",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "ferritin",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "ferritin",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "ferritin",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "ferritin",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "fibrinogen",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "fibrinogen",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "fibrinogen",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "fibrinogen",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "fibrinogen",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "fibrinogen",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "freetestos",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "freetestos",
+    "unit_name": "pg%",
+    "unit_key": "pgperc"
+  },
+  {
+    "biomarker_key": "freetestos",
+    "unit_name": "pg/100mL",
+    "unit_key": "pg_100ml"
+  },
+  {
+    "biomarker_key": "freetestos",
+    "unit_name": "pg/dL",
+    "unit_key": "pg_dl"
+  },
+  {
+    "biomarker_key": "freetestos",
+    "unit_name": "pg/L",
+    "unit_key": "pg_l"
+  },
+  {
+    "biomarker_key": "freetestos",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "freetestos",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "fructosamine",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "fructosamine",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "fructosamine",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "fsh",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "fsh",
+    "unit_name": "mIU/mL",
+    "unit_key": "miu_ml"
+  },
+  {
+    "biomarker_key": "fsh",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "fsh",
+    "unit_name": "µIU/mL",
+    "unit_key": "uiu_ml"
+  },
+  {
+    "biomarker_key": "ft3",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "ft3",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "ft3",
+    "unit_name": "pg%",
+    "unit_key": "pgperc"
+  },
+  {
+    "biomarker_key": "ft3",
+    "unit_name": "pg/100mL",
+    "unit_key": "pg_100ml"
+  },
+  {
+    "biomarker_key": "ft3",
+    "unit_name": "pg/dL",
+    "unit_key": "pg_dl"
+  },
+  {
+    "biomarker_key": "ft3",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "ft3",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "ft4",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "ft4",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "ft4",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "ft4",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "ft4",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "ft4",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "ft4",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "fti_thyroid",
+    "unit_name": "index",
+    "unit_key": "index"
+  },
+  {
+    "biomarker_key": "gamma_globulin",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "gamma_globulin",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "ggt",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "globulin",
+    "unit_name": "g/dL",
+    "unit_key": "g_dl"
+  },
+  {
+    "biomarker_key": "globulin",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "glycated_albumin",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "glycated_albumin",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "growth_hormone",
+    "unit_name": "mIU/L",
+    "unit_key": "miu_l"
+  },
+  {
+    "biomarker_key": "growth_hormone",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "growth_hormone",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "growth_hormone",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "growth_hormone",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "growth_hormone",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "haptoglobin",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "haptoglobin",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "haptoglobin",
+    "unit_name": "mg/mL",
+    "unit_key": "mg_ml"
+  },
+  {
+    "biomarker_key": "haptoglobin",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "hba1c",
+    "unit_name": "%",
+    "unit_key": "perc"
+  },
+  {
+    "biomarker_key": "hba1c",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "hba1c",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "hba1c",
+    "unit_name": "mmol/mol",
+    "unit_key": "mmol_mol"
+  },
+  {
+    "biomarker_key": "hct",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "hct",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "hct",
+    "unit_name": "L/L",
+    "unit_key": "l_l"
+  },
+  {
+    "biomarker_key": "hdlcholest",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "hdlcholest",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "hdlcholest",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "hdlcholest",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "hdlcholest",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "hdlcholest",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "hdlcholest",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "hemoglobin_simple",
+    "unit_name": "g%",
+    "unit_key": "gperc"
+  },
+  {
+    "biomarker_key": "hemoglobin_simple",
+    "unit_name": "g/100mL",
+    "unit_key": "g_100ml"
+  },
+  {
+    "biomarker_key": "hemoglobin_simple",
+    "unit_name": "g/dL",
+    "unit_key": "g_dl"
+  },
+  {
+    "biomarker_key": "hemoglobin_simple",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "hemoglobin_simple",
+    "unit_name": "mg/mL",
+    "unit_key": "mg_ml"
+  },
+  {
+    "biomarker_key": "hemoglobin_simple",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "holotransc",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "holotransc",
+    "unit_name": "pg%",
+    "unit_key": "pgperc"
+  },
+  {
+    "biomarker_key": "holotransc",
+    "unit_name": "pg/100mL",
+    "unit_key": "pg_100ml"
+  },
+  {
+    "biomarker_key": "holotransc",
+    "unit_name": "pg/dL",
+    "unit_key": "pg_dl"
+  },
+  {
+    "biomarker_key": "holotransc",
+    "unit_name": "pg/L",
+    "unit_key": "pg_l"
+  },
+  {
+    "biomarker_key": "holotransc",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "holotransc",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "homa_ir",
+    "unit_name": "index",
+    "unit_key": "index"
+  },
+  {
+    "biomarker_key": "homocystei",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "homocystei",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "homocystei",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "homocystei",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "homocystei",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "homocystei",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "hs_crp",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "hs_crp",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "hs_crp",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "hs_crp",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "hs_crp",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "hs_crp",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "hs_crp",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "human_chorionic_gonadotropin",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "human_chorionic_gonadotropin",
+    "unit_name": "mIU/mL",
+    "unit_key": "miu_ml"
+  },
+  {
+    "biomarker_key": "human_chorionic_gonadotropin",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "iga",
+    "unit_name": "g/dL",
+    "unit_key": "g_dl"
+  },
+  {
+    "biomarker_key": "iga",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "iga",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "iga",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "iga",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "iga",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "igfbp3",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "igfbp3",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "igfbp3",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "igfbp3",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "igfbp3",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "igfbp3",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "igfbp3",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "igfi",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "igfi",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "igfi",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "igfi",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "igfi",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "igfi",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "immature_granulocytes_abs",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "immature_granulocytes_abs",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "immature_granulocytes_abs",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "immature_granulocytes_pct",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "immature_granulocytes_pct",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "insulinfas",
+    "unit_name": "mIU/L",
+    "unit_key": "miu_l"
+  },
+  {
+    "biomarker_key": "insulinfas",
+    "unit_name": "mU/L",
+    "unit_key": "mu_l"
+  },
+  {
+    "biomarker_key": "insulinfas",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "insulinfas",
+    "unit_name": "µIU/mL",
+    "unit_key": "uiu_ml"
+  },
+  {
+    "biomarker_key": "insulinfas",
+    "unit_name": "µU/mL",
+    "unit_key": "uu_ml"
+  },
+  {
+    "biomarker_key": "iron",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "iron",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "iron",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "iron",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "iron",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "iron",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "iron",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "iron",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "lactate",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "lactate",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "lactate",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "lactate",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "lactate",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "lactate",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "lactate",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "ldh",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "ldlcholest",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "ldlcholest",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "ldlcholest",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "ldlcholest",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "ldlcholest",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "ldlcholest",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "ldlcholest",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "ldl_hdl_ratio",
+    "unit_name": "index",
+    "unit_key": "index"
+  },
+  {
+    "biomarker_key": "ldl_hdl_ratio",
+    "unit_name": "ratio",
+    "unit_key": "ratio"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "nkat/L",
+    "unit_key": "nkat_l"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "nmol/(s*L)",
+    "unit_key": "nmol_per_s_l"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "µkat/L",
+    "unit_key": "ukat_l"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "µmol/(h*L)",
+    "unit_key": "umol_per_h_l"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "µmol/(h*mL)",
+    "unit_key": "umol_per_h_ml"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "µmol/(min*L)",
+    "unit_key": "umol_per_min_l"
+  },
+  {
+    "biomarker_key": "lipase",
+    "unit_name": "µmol/(s*L)",
+    "unit_key": "umol_per_s_l"
+  },
+  {
+    "biomarker_key": "lipoprotei",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "lipoprotei",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "lipoprotei",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "lipoprotei",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "lipoprotei",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "lipoprotei",
+    "unit_name": "mg/mL",
+    "unit_key": "mg_ml"
+  },
+  {
+    "biomarker_key": "lipoprotei",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "lppla2acti",
+    "unit_name": "nmol/min/mL",
+    "unit_key": "nmol_min_ml"
+  },
+  {
+    "biomarker_key": "lppla2acti",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "lppla2mass",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "luteinizing_hormone_lh",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "luteinizing_hormone_lh",
+    "unit_name": "mIU/mL",
+    "unit_key": "miu_ml"
+  },
+  {
+    "biomarker_key": "luteinizing_hormone_lh",
+    "unit_name": "U/L",
+    "unit_key": "u_l"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "1000/mm³",
+    "unit_key": "1000_per_mm3"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "1000/µL",
+    "unit_key": "1000_per_ul"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "×10³/mm³",
+    "unit_key": "x10_3_mm3"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "G/L",
+    "unit_key": "g_per_l"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "Gpt/L",
+    "unit_key": "gpt_per_l"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "k/mm³",
+    "unit_key": "k_per_mm3"
+  },
+  {
+    "biomarker_key": "lymphocytes_abs",
+    "unit_name": "k/µL",
+    "unit_key": "k_per_ul"
+  },
+  {
+    "biomarker_key": "lymphocytes_pct",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "lymphocytes_pct",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "magnesium",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "magnesium",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "magnesium",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "magnesium",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "magnesium",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "magnesium",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "magnesium",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "magnesium",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "mch",
+    "unit_name": "fmol",
+    "unit_key": "fmol_implicit_cell"
+  },
+  {
+    "biomarker_key": "mch",
+    "unit_name": "fmol/cell",
+    "unit_key": "fmol_per_cell"
+  },
+  {
+    "biomarker_key": "mch",
+    "unit_name": "pg",
+    "unit_key": "pg"
+  },
+  {
+    "biomarker_key": "mch",
+    "unit_name": "pg/cell",
+    "unit_key": "pg_per_cell"
+  },
+  {
+    "biomarker_key": "mchc",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "mchc",
+    "unit_name": "g%",
+    "unit_key": "gperc"
+  },
+  {
+    "biomarker_key": "mchc",
+    "unit_name": "g/100mL",
+    "unit_key": "g_100ml"
+  },
+  {
+    "biomarker_key": "mchc",
+    "unit_name": "g/dL",
+    "unit_key": "g_dl"
+  },
+  {
+    "biomarker_key": "mchc",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "mchc",
+    "unit_name": "mg/mL",
+    "unit_key": "mg_ml"
+  },
+  {
+    "biomarker_key": "mchc",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "mchc",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "mcv",
+    "unit_name": "cu µm",
+    "unit_key": "cu_um"
+  },
+  {
+    "biomarker_key": "mcv",
+    "unit_name": "fL",
+    "unit_key": "fl"
+  },
+  {
+    "biomarker_key": "mcv",
+    "unit_name": "µm³",
+    "unit_key": "um3"
+  },
+  {
+    "biomarker_key": "mercury",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "mercury",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "1000/mm³",
+    "unit_key": "1000_per_mm3"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "1000/µL",
+    "unit_key": "1000_per_ul"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "×10³/mm³",
+    "unit_key": "x10_3_mm3"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "G/L",
+    "unit_key": "g_per_l"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "Gpt/L",
+    "unit_key": "gpt_per_l"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "k/mm³",
+    "unit_key": "k_per_mm3"
+  },
+  {
+    "biomarker_key": "monocytes_abs",
+    "unit_name": "k/µL",
+    "unit_key": "k_per_ul"
+  },
+  {
+    "biomarker_key": "monocytes_pct",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "monocytes_pct",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "mpv",
+    "unit_name": "fL",
+    "unit_key": "fl"
+  },
+  {
+    "biomarker_key": "mpv",
+    "unit_name": "µm³",
+    "unit_key": "um3"
+  },
+  {
+    "biomarker_key": "nad",
+    "unit_name": "µM",
+    "unit_key": "um"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "1000/mm³",
+    "unit_key": "1000_per_mm3"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "1000/µL",
+    "unit_key": "1000_per_ul"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "×10³/mm³",
+    "unit_key": "x10_3_mm3"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "G/L",
+    "unit_key": "g_per_l"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "Gpt/L",
+    "unit_key": "gpt_per_l"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "k/mm³",
+    "unit_key": "k_per_mm3"
+  },
+  {
+    "biomarker_key": "neutrophils_abs",
+    "unit_name": "k/µL",
+    "unit_key": "k_per_ul"
+  },
+  {
+    "biomarker_key": "neutrophils_pct",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "neutrophils_pct",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "non_hdl_cholesterol",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "non_hdl_cholesterol",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "nse",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "nse",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "nse",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "nse",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "nse",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "nse",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "omega3_index",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "omega_6_index",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "omega_6_omega_3_ratio",
+    "unit_name": "ratio",
+    "unit_key": "ratio"
+  },
+  {
+    "biomarker_key": "osmolality_calc",
+    "unit_name": "mOsm/kg",
+    "unit_key": "mosm_kg"
+  },
+  {
+    "biomarker_key": "pdw",
+    "unit_name": "fL",
+    "unit_key": "fl"
+  },
+  {
+    "biomarker_key": "phosphate",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "phosphate",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "phosphate",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "phosphate",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "phosphate",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "phosphate",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "phosphate",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "phosphate",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "pivka2_elisa",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "pivka2_elisa",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "pivka2_picolumi",
+    "unit_name": "AU/mL",
+    "unit_key": "au_ml"
+  },
+  {
+    "biomarker_key": "pivka2_picolumi",
+    "unit_name": "mAU/mL",
+    "unit_key": "mau_ml"
+  },
+  {
+    "biomarker_key": "plateletcrit",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "plateletcrit",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "1000/mm³",
+    "unit_key": "1000_per_mm3"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "1000/µL",
+    "unit_key": "1000_per_ul"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "×10³/mm³",
+    "unit_key": "x10_3_mm3"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "G/L",
+    "unit_key": "g_per_l"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "Gpt/L",
+    "unit_key": "gpt_per_l"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "k/mm³",
+    "unit_key": "k_per_mm3"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "k/µL",
+    "unit_key": "k_per_ul"
+  },
+  {
+    "biomarker_key": "plt",
+    "unit_name": "K/µL",
+    "unit_key": "k_ul"
+  },
+  {
+    "biomarker_key": "potassium",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "potassium",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "prealbumin",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "prealbumin",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "prealbumin",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "prealbumin",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "prealbumin",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "prealbumin",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "progestero",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "progestero",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "progestero",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "progestero",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "progestero",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "progestero",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "progestero",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "progestero",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "prolactin_prl",
+    "unit_name": "mIU/L",
+    "unit_key": "miu_l"
+  },
+  {
+    "biomarker_key": "prolactin_prl",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "prolactin_prl",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "prolactin_prl",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "prolactin_prl",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "prolactin_prl",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "prolactin_prl",
+    "unit_name": "µIU/mL",
+    "unit_key": "uiu_ml"
+  },
+  {
+    "biomarker_key": "prothrombin_time_inr",
+    "unit_name": "INR",
+    "unit_key": "inr"
+  },
+  {
+    "biomarker_key": "prothrombin_time_inr",
+    "unit_name": "s",
+    "unit_key": "s"
+  },
+  {
+    "biomarker_key": "psa_free",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "psa_free",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "psa_free",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "psa_free",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "psa_free",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "psa_free",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "psa_ratio",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "psa_ratio",
+    "unit_name": "ratio",
+    "unit_key": "ratio"
+  },
+  {
+    "biomarker_key": "psa_total",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "psa_total",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "psa_total",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "psa_total",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "psa_total",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "psa_total",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "pth",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "pth",
+    "unit_name": "pg%",
+    "unit_key": "pgperc"
+  },
+  {
+    "biomarker_key": "pth",
+    "unit_name": "pg/100mL",
+    "unit_key": "pg_100ml"
+  },
+  {
+    "biomarker_key": "pth",
+    "unit_name": "pg/dL",
+    "unit_key": "pg_dl"
+  },
+  {
+    "biomarker_key": "pth",
+    "unit_name": "pg/L",
+    "unit_key": "pg_l"
+  },
+  {
+    "biomarker_key": "pth",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "pth",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "1000000/mm³",
+    "unit_key": "1000000_per_mm3"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "1000000/µL",
+    "unit_key": "1000000_per_ul"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "×10¹²/L",
+    "unit_key": "x10_12_l"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "×10⁶/mm³",
+    "unit_key": "x10_6_mm3"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "×10⁶/µL",
+    "unit_key": "x10_6_ul"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "M/mm³",
+    "unit_key": "m_per_mm3"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "M/µL",
+    "unit_key": "m_per_ul"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "T/L",
+    "unit_key": "t_per_l"
+  },
+  {
+    "biomarker_key": "rbc",
+    "unit_name": "Tpt/L",
+    "unit_key": "tpt_per_l"
+  },
+  {
+    "biomarker_key": "rdw_cv",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "rdw_cv",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "rdw_sd",
+    "unit_name": "fL",
+    "unit_key": "fl"
+  },
+  {
+    "biomarker_key": "rdw_sd",
+    "unit_name": "µm³",
+    "unit_key": "um3"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "1000/mm³",
+    "unit_key": "1000_per_mm3"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "1000/µL",
+    "unit_key": "1000_per_ul"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "G/L",
+    "unit_key": "g_per_l"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "Gpt/L",
+    "unit_key": "gpt_per_l"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "k/mm³",
+    "unit_key": "k_per_mm3"
+  },
+  {
+    "biomarker_key": "reticulocytes_abs",
+    "unit_name": "k/µL",
+    "unit_key": "k_per_ul"
+  },
+  {
+    "biomarker_key": "reticulocytes_pct",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "reticulocytes_pct",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "rt3",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "rt3",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "rt3",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "scc_antigen",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "scc_antigen",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "scc_antigen",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "scc_antigen",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "scc_antigen",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "scc_antigen",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "selenium",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "selenium",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "selenium",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "selenium",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "selenium",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "selenium",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "selenium",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "selenium",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "serum_osmolality",
+    "unit_name": "mmol/kg",
+    "unit_key": "mmol_kg"
+  },
+  {
+    "biomarker_key": "serum_osmolality",
+    "unit_name": "mOsm/kg",
+    "unit_key": "mosm_kg"
+  },
+  {
+    "biomarker_key": "shbg",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "shbg",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "shbg",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "shbg",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "shbg",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "shbg",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "shbg",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "silicon",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "silicon",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "sodium",
+    "unit_name": "mEq/L",
+    "unit_key": "meq_l"
+  },
+  {
+    "biomarker_key": "sodium",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "stfr",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "stfr",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "stfr",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "stfr",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "stfr",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "stfr",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "tbg",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "tbg",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "tbg",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "tbg",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "tbg",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "tbg",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "tg_ab",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "tg_ab",
+    "unit_name": "IU/mL",
+    "unit_key": "iu_ml"
+  },
+  {
+    "biomarker_key": "tg_ab",
+    "unit_name": "kU/L",
+    "unit_key": "ku_l"
+  },
+  {
+    "biomarker_key": "tibc",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "tibc",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "tibc",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "tibc",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "tibc",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "tibc",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "tibc",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "tibc",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "totalchole",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "totalchole",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "totalchole",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "totalchole",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "totalchole",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "totalchole",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "totalchole",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "total_chol_hdl_ratio",
+    "unit_name": "index",
+    "unit_key": "index"
+  },
+  {
+    "biomarker_key": "total_chol_hdl_ratio",
+    "unit_name": "ratio",
+    "unit_key": "ratio"
+  },
+  {
+    "biomarker_key": "total_protein",
+    "unit_name": "g/dL",
+    "unit_key": "g_dl"
+  },
+  {
+    "biomarker_key": "total_protein",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "totaltesto",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "totaltesto",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "totaltesto",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "totaltesto",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "totaltesto",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "totaltesto",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "tpo_ab",
+    "unit_name": "IU/L",
+    "unit_key": "iu_l"
+  },
+  {
+    "biomarker_key": "tpo_ab",
+    "unit_name": "IU/mL",
+    "unit_key": "iu_ml"
+  },
+  {
+    "biomarker_key": "tpo_ab",
+    "unit_name": "kU/L",
+    "unit_key": "ku_l"
+  },
+  {
+    "biomarker_key": "transferrin",
+    "unit_name": "g/L",
+    "unit_key": "g_l"
+  },
+  {
+    "biomarker_key": "transferrin",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "transferrin",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "transferrin",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "transferrin",
+    "unit_name": "mg/mL",
+    "unit_key": "mg_ml"
+  },
+  {
+    "biomarker_key": "transferrin",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "transferrin_saturation",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "transferrin_saturation",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "triglyceri",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "triglyceri",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "triglyceri",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "triglyceri",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "triglyceri",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "triglyceri",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "triglyceri",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "tsh",
+    "unit_name": "mIU/L",
+    "unit_key": "miu_l"
+  },
+  {
+    "biomarker_key": "tsh",
+    "unit_name": "µIU/mL",
+    "unit_key": "uiu_ml"
+  },
+  {
+    "biomarker_key": "tt3",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "tt3",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "tt3",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "tt3",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "tt3",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "tt3",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "tt3",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "tt4",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "tt4",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "tt4",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "tt4",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "tt4",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "tt4",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "urea_bun",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "urea_bun",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "urea_bun",
+    "unit_name": "mg/dL (BUN)",
+    "unit_key": "mg_dl_bun"
+  },
+  {
+    "biomarker_key": "urea_bun",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "urea_bun",
+    "unit_name": "mmol/L (urea)",
+    "unit_key": "mmol_l_urea"
+  },
+  {
+    "biomarker_key": "urea_bun",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "urea_bun",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "uric_acid",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "uric_acid",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "uric_acid",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "uric_acid",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "uric_acid",
+    "unit_name": "mmol/L",
+    "unit_key": "mmol_l"
+  },
+  {
+    "biomarker_key": "uric_acid",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "uric_acid",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "vitamina",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "vitamina",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "vitamina",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "vitamina",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "vitamina",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitamina",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "vitaminb12",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "vitaminb12",
+    "unit_name": "pg%",
+    "unit_key": "pgperc"
+  },
+  {
+    "biomarker_key": "vitaminb12",
+    "unit_name": "pg/100mL",
+    "unit_key": "pg_100ml"
+  },
+  {
+    "biomarker_key": "vitaminb12",
+    "unit_name": "pg/dL",
+    "unit_key": "pg_dl"
+  },
+  {
+    "biomarker_key": "vitaminb12",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "vitaminb12",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "vitaminb1t",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitaminb1t",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "vitaminb1t",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "vitaminb1t",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "vitaminb1t",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "vitaminb1t",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitamin_b2",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "vitamin_b2",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitamin_b2",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "vitamin_b2",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "vitamin_b2",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "vitamin_b2",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitamin_b3",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "vitamin_b3",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitamin_b3",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "vitamin_b3",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "vitamin_b3",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "vitamin_b3",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitaminb5p",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "vitaminb5p",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "vitaminb5p",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "vitaminb5p",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "vitaminb5p",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitaminb5p",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "vitaminb5p",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "vitaminb6p",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "vitaminb6p",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitaminb6p",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "vitaminb6p",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "vitaminb6p",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "vitaminb6p",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitaminb7b",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "vitaminb7b",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "vitaminb7b",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "vitaminb7b",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "vitaminb7b",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitaminb7b",
+    "unit_name": "pg/mL",
+    "unit_key": "pg_ml"
+  },
+  {
+    "biomarker_key": "vitaminb9_plasma",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "vitaminb9_plasma",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "vitaminb9_plasma",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "vitaminb9_plasma",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "vitaminb9_plasma",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "vitaminb9_plasma",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitaminb9_plasma",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "vitaminb9_plasma",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitaminb9_rbc",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "vitaminb9_rbc",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "vitaminb9_rbc",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "vitaminb9_rbc",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "vitaminb9_rbc",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "vitaminb9_rbc",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitaminb9_rbc",
+    "unit_name": "pmol/L",
+    "unit_key": "pmol_l"
+  },
+  {
+    "biomarker_key": "vitaminb9_rbc",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitaminc",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "vitaminc",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "vitaminc",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "vitaminc",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "vitaminc",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "vitaminc",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "vitamind25",
+    "unit_name": "ng%",
+    "unit_key": "ngperc"
+  },
+  {
+    "biomarker_key": "vitamind25",
+    "unit_name": "ng/100mL",
+    "unit_key": "ng_100ml"
+  },
+  {
+    "biomarker_key": "vitamind25",
+    "unit_name": "ng/dL",
+    "unit_key": "ng_dl"
+  },
+  {
+    "biomarker_key": "vitamind25",
+    "unit_name": "ng/L",
+    "unit_key": "ng_l"
+  },
+  {
+    "biomarker_key": "vitamind25",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "vitamind25",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitamind25",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "vitamin_e",
+    "unit_name": "mg%",
+    "unit_key": "mgperc"
+  },
+  {
+    "biomarker_key": "vitamin_e",
+    "unit_name": "mg/100mL",
+    "unit_key": "mg_100ml"
+  },
+  {
+    "biomarker_key": "vitamin_e",
+    "unit_name": "mg/dL",
+    "unit_key": "mg_dl"
+  },
+  {
+    "biomarker_key": "vitamin_e",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "vitamin_e",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "vitamin_e",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  },
+  {
+    "biomarker_key": "vitamink",
+    "unit_name": "ng/mL",
+    "unit_key": "ng_ml"
+  },
+  {
+    "biomarker_key": "vitamink",
+    "unit_name": "nmol/L",
+    "unit_key": "nmol_l"
+  },
+  {
+    "biomarker_key": "vitamink",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "vitamink",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "vitamink",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "vitamink",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "1000/mm³",
+    "unit_key": "1000_per_mm3"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "1000/µL",
+    "unit_key": "1000_per_ul"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "×10³/µL",
+    "unit_key": "x10_3_ul"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "×10⁹/L",
+    "unit_key": "x10_9_l"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "cells/L",
+    "unit_key": "cells_l"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "cells/mm³",
+    "unit_key": "cells_mm3"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "cells/µL",
+    "unit_key": "cells_ul"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "G/L",
+    "unit_key": "g_per_l"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "Gpt/L",
+    "unit_key": "gpt_per_l"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "k/mm³",
+    "unit_key": "k_per_mm3"
+  },
+  {
+    "biomarker_key": "wbc",
+    "unit_name": "k/µL",
+    "unit_key": "k_per_ul"
+  },
+  {
+    "biomarker_key": "wbc_percentage",
+    "unit_name": "%",
+    "unit_key": "percent"
+  },
+  {
+    "biomarker_key": "wbc_percentage",
+    "unit_name": "Fraction",
+    "unit_key": "fraction"
+  },
+  {
+    "biomarker_key": "zinc",
+    "unit_name": "mg/L",
+    "unit_key": "mg_l"
+  },
+  {
+    "biomarker_key": "zinc",
+    "unit_name": "µg%",
+    "unit_key": "ugperc"
+  },
+  {
+    "biomarker_key": "zinc",
+    "unit_name": "µg/100mL",
+    "unit_key": "ug_100ml"
+  },
+  {
+    "biomarker_key": "zinc",
+    "unit_name": "µg/dL",
+    "unit_key": "ug_dl"
+  },
+  {
+    "biomarker_key": "zinc",
+    "unit_name": "µg/L",
+    "unit_key": "ug_l"
+  },
+  {
+    "biomarker_key": "zinc",
+    "unit_name": "µg/mL",
+    "unit_key": "ug_ml"
+  },
+  {
+    "biomarker_key": "zinc",
+    "unit_name": "µmol/L",
+    "unit_key": "umol_l"
+  }
+]

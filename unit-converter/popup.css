@@ -1,0 +1,257 @@
+/* Health3 Unit Converter — Premium Popup Styles */
+
+body { width: 360px; overflow-x: hidden; }
+
+.converter-body {
+  min-height: 220px;
+  padding: 16px 18px;
+}
+
+/* ── Search results dropdown ── */
+
+.search-results {
+  position: relative;
+  background: var(--h3-bg);
+  border: 1.5px solid var(--h3-stroke);
+  border-top: none;
+  border-radius: 0 0 var(--h3-radius-md) var(--h3-radius-md);
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 10;
+  box-shadow: var(--h3-shadow-lg);
+}
+
+.search-result-item {
+  padding: 10px 14px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--h3-bg-secondary);
+  transition: all var(--h3-transition);
+}
+
+.search-result-item:last-child { border-bottom: none; }
+
+.search-result-item:hover {
+  background: linear-gradient(135deg,
+    rgba(79, 221, 195, 0.08) 0%,
+    rgba(7, 160, 109, 0.04) 100%
+  );
+}
+
+.search-result-item .bio-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--h3-dark);
+}
+
+.search-result-item .bio-aliases {
+  font-size: 11px;
+  color: var(--h3-text-secondary);
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+/* ── Selected biomarker chip ── */
+
+.selected-biomarker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: linear-gradient(135deg,
+    rgba(79, 221, 195, 0.1) 0%,
+    rgba(7, 160, 109, 0.06) 100%
+  );
+  border: 1.5px solid rgba(79, 221, 195, 0.35);
+  border-radius: var(--h3-radius-md);
+  margin-top: 6px;
+  animation: h3-scale-in 0.2s ease-out;
+}
+
+.selected-biomarker .bio-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--h3-dark);
+}
+
+.selected-biomarker .clear-btn {
+  background: none;
+  border: none;
+  color: var(--h3-text-secondary);
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0 2px;
+  line-height: 1;
+  transition: color var(--h3-transition);
+}
+
+.selected-biomarker .clear-btn:hover {
+  color: var(--h3-error);
+}
+
+/* ── Unit row with swap ── */
+
+.unit-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.unit-col { flex: 1; }
+
+.swap-btn {
+  background: linear-gradient(135deg, var(--h3-bg-secondary) 0%, var(--h3-bg) 100%);
+  border: 1.5px solid var(--h3-stroke);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1px;
+  transition: all var(--h3-transition);
+  color: var(--h3-muted);
+  flex-shrink: 0;
+}
+
+.swap-btn:hover {
+  background: linear-gradient(135deg,
+    rgba(79, 221, 195, 0.1) 0%,
+    rgba(79, 221, 195, 0.05) 100%
+  );
+  border-color: var(--h3-primary);
+  color: var(--h3-green);
+  transform: rotate(180deg);
+}
+
+/* ── Result card ── */
+
+.result-card {
+  text-align: center;
+  padding: 20px 16px;
+  background: linear-gradient(135deg,
+    rgba(7, 160, 109, 0.06) 0%,
+    rgba(79, 221, 195, 0.04) 50%,
+    var(--h3-bg-secondary) 100%
+  );
+  border-radius: var(--h3-radius-lg);
+  border: 1px solid rgba(79, 221, 195, 0.2);
+  position: relative;
+  overflow: hidden;
+  animation: h3-slide-up 0.3s ease-out;
+}
+
+/* Decorative corner accent */
+.result-card::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle,
+    rgba(79, 221, 195, 0.12) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.result-value {
+  font-size: 32px;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--h3-dark) 0%, var(--h3-green) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.result-unit {
+  font-size: 13px;
+  color: var(--h3-muted);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+/* ── Reference Ranges section ── */
+
+.ranges-section {
+  margin-top: 10px;
+  animation: h3-fade-in 0.35s ease-out;
+}
+
+.ranges-header {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--h3-muted);
+  margin-bottom: 6px;
+  padding-left: 2px;
+}
+
+.range-row {
+  padding: 8px 12px;
+  background: var(--h3-bg);
+  border-radius: var(--h3-radius-sm);
+  margin-bottom: 4px;
+  border: 1px solid var(--h3-stroke);
+  transition: all var(--h3-transition);
+}
+
+.range-row:hover {
+  border-color: rgba(79, 221, 195, 0.3);
+  background: linear-gradient(135deg,
+    rgba(79, 221, 195, 0.03) 0%,
+    var(--h3-bg) 100%
+  );
+}
+
+.range-values-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.range-type {
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.range-type-normal {
+  background: linear-gradient(135deg, rgba(7, 160, 109, 0.1) 0%, rgba(7, 160, 109, 0.06) 100%);
+  color: var(--h3-green);
+}
+
+.range-type-optimal {
+  background: linear-gradient(135deg, rgba(87, 145, 228, 0.1) 0%, rgba(87, 145, 228, 0.06) 100%);
+  color: var(--h3-accent-blue);
+}
+
+.range-bounds {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--h3-dark);
+}
+
+.range-criteria {
+  font-size: 11px;
+  color: var(--h3-text-secondary);
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+.range-source {
+  font-size: 10px;
+  color: var(--h3-text-secondary);
+  font-style: italic;
+  margin-top: 1px;
+  opacity: 0.7;
+}

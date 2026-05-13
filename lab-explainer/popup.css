@@ -1,0 +1,328 @@
+/* Health3 Lab Explainer — Premium Popup Styles */
+
+body { width: 380px; overflow-x: hidden; }
+
+.explainer-body {
+  min-height: 260px;
+  padding: 16px 18px;
+}
+
+/* ── Search result items ── */
+
+.search-item {
+  padding: 12px 14px;
+  border: 1px solid var(--h3-stroke);
+  border-radius: var(--h3-radius-md);
+  cursor: pointer;
+  transition: all var(--h3-transition);
+  margin-bottom: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.search-item::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--h3-primary) 0%, var(--h3-green) 100%);
+  opacity: 0;
+  transition: opacity var(--h3-transition);
+}
+
+.search-item:hover {
+  border-color: rgba(79, 221, 195, 0.3);
+  background: linear-gradient(135deg,
+    rgba(79, 221, 195, 0.05) 0%,
+    var(--h3-bg) 100%
+  );
+  box-shadow: var(--h3-shadow-sm);
+  transform: translateX(2px);
+}
+
+.search-item:hover::before { opacity: 1; }
+
+.search-item-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--h3-dark);
+}
+
+.search-item-en {
+  font-size: 11px;
+  color: var(--h3-text-secondary);
+  font-weight: 400;
+}
+
+.search-item-desc {
+  font-size: 11px;
+  color: var(--h3-text-secondary);
+  margin-top: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* ── Detail view ── */
+
+.detail-card {
+  background: linear-gradient(135deg,
+    rgba(7, 160, 109, 0.03) 0%,
+    var(--h3-bg) 100%
+  );
+  border: 1px solid var(--h3-stroke);
+  border-radius: var(--h3-radius-lg);
+  padding: 16px;
+  box-shadow: var(--h3-shadow-md);
+}
+
+.detail-header {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--h3-stroke);
+}
+
+.detail-header h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--h3-dark);
+  margin: 0;
+  letter-spacing: -0.3px;
+}
+
+.detail-en-name {
+  font-size: 12px;
+  color: var(--h3-muted);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.detail-desc {
+  font-size: 13px;
+  color: var(--h3-text);
+  line-height: 1.65;
+  margin: 0 0 4px;
+  font-weight: 400;
+}
+
+.desc-toggle {
+  background: none;
+  border: none;
+  color: var(--h3-green);
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 2px;
+  transition: color var(--h3-transition);
+}
+
+.desc-toggle:hover {
+  color: var(--h3-dark);
+}
+
+/* ── Detail sections ── */
+
+.detail-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--h3-stroke);
+  animation: h3-fade-in 0.3s ease-out;
+}
+
+.detail-section-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--h3-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.section-icon { font-size: 13px; }
+
+.section-note {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--h3-text-secondary);
+  font-size: 10px;
+}
+
+/* ── Ranges list ── */
+
+.range-item {
+  padding: 8px 10px;
+  border-radius: var(--h3-radius-sm);
+  border: 1px solid var(--h3-stroke);
+  margin-bottom: 4px;
+  transition: all var(--h3-transition);
+  background: var(--h3-bg);
+}
+
+.range-item:hover {
+  border-color: rgba(79, 221, 195, 0.25);
+  background: linear-gradient(135deg,
+    rgba(79, 221, 195, 0.03) 0%,
+    var(--h3-bg) 100%
+  );
+}
+
+.range-item > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.range-type-tag {
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.range-type-tag-normal {
+  background: linear-gradient(135deg, rgba(7, 160, 109, 0.1) 0%, rgba(7, 160, 109, 0.06) 100%);
+  color: var(--h3-green);
+}
+
+.range-type-tag-optimal {
+  background: linear-gradient(135deg, rgba(87, 145, 228, 0.1) 0%, rgba(87, 145, 228, 0.06) 100%);
+  color: var(--h3-accent-blue);
+}
+
+.range-values {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--h3-dark);
+}
+
+.range-meta {
+  font-size: 10px;
+  color: var(--h3-text-secondary);
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+/* ── Units list ── */
+
+.units-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.unit-chip {
+  padding: 4px 11px;
+  background: var(--h3-bg-secondary);
+  border: 1px solid var(--h3-stroke);
+  border-radius: var(--h3-radius-pill);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--h3-dark);
+  transition: all var(--h3-transition);
+}
+
+.unit-chip:hover {
+  border-color: var(--h3-primary);
+  background: rgba(79, 221, 195, 0.06);
+}
+
+/* ── Topics list ── */
+
+.topics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.topic-chip {
+  padding: 4px 11px;
+  background: linear-gradient(135deg,
+    rgba(79, 221, 195, 0.08) 0%,
+    rgba(7, 160, 109, 0.05) 100%
+  );
+  border: 1px solid rgba(79, 221, 195, 0.25);
+  border-radius: var(--h3-radius-pill);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--h3-dark);
+  text-transform: capitalize;
+  transition: all var(--h3-transition);
+}
+
+.topic-chip:hover {
+  background: linear-gradient(135deg,
+    rgba(79, 221, 195, 0.15) 0%,
+    rgba(7, 160, 109, 0.1) 100%
+  );
+  border-color: rgba(79, 221, 195, 0.4);
+}
+
+/* ── Back button ── */
+
+.back-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* ── Usage hint ── */
+
+.usage-hint {
+  position: relative;
+  border-radius: var(--h3-radius-md);
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.hint-glow {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg,
+    rgba(254, 224, 135, 0.15) 0%,
+    rgba(255, 147, 48, 0.08) 50%,
+    rgba(79, 221, 195, 0.06) 100%
+  );
+  border: 1px solid rgba(254, 224, 135, 0.3);
+  border-radius: var(--h3-radius-md);
+}
+
+.hint-content {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  padding: 12px 14px;
+  align-items: flex-start;
+}
+
+.hint-icon-wrap {
+  font-size: 18px;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 1px;
+}
+
+.hint-text {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--h3-dark);
+  font-weight: 400;
+}
+
+.hint-text strong { font-weight: 700; }
+
+.hint-text em {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--h3-green);
+}
