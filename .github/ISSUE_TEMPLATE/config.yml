@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Health3 mobile app support
+    url: mailto:support@health3.app
+    about: For issues with the Health3 mobile app (not these extensions), please email us directly.
+  - name: Security vulnerability
+    url: https://github.com/Health3-app/biomarker-extensions/security/advisories/new
+    about: For security vulnerabilities, please report them privately via GitHub Security Advisories instead of opening a public issue.
