@@ -15,12 +15,12 @@ Both extensions cover **182 biomarkers**, work completely offline, and collect z
 
 | Browser | Unit Converter | Biomarker Explainer |
 |---|---|---|
-| Chrome | [Coming to Chrome Web Store](https://chrome.google.com/webstore) | [Coming to Chrome Web Store](https://chrome.google.com/webstore) |
-| Edge | [Coming to Edge Add-ons](https://microsoftedge.microsoft.com/addons) | [Coming to Edge Add-ons](https://microsoftedge.microsoft.com/addons) |
-| Firefox | [Coming to Firefox Add-ons](https://addons.mozilla.org) | [Coming to Firefox Add-ons](https://addons.mozilla.org) |
-| Opera | [Coming to Opera Add-ons](https://addons.opera.com) | [Coming to Opera Add-ons](https://addons.opera.com) |
+| Chrome | [Install from Chrome Web Store](https://chromewebstore.google.com/detail/health3-biomarker-unit-co/cdffkfhlbdnnlkfindcalmfcdlnkhjbn) | _Coming soon_ |
+| Edge | _Coming soon_ | _Coming soon_ |
+| Firefox | [Install from Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/health3-unit-converter/) | _Coming soon_ |
+| Opera | _Coming soon_ | _Coming soon_ |
 
-> Store links will be added as listings go live. In the meantime, you can [load them as unpacked extensions](#development--testing) from this repository.
+> Listings are being rolled out across browser stores. In the meantime, you can [load any extension as unpacked](#development--testing) from this repository.
 
 ---
 
