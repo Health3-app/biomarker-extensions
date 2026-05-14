@@ -1,0 +1,43 @@
+Health3 Biomarker Browser Extensions
+====================================
+
+This software is licensed under the MIT License (see LICENSE file).
+Additional notices below cover trademarks and data sources.
+
+---
+
+TRADEMARK NOTICE
+
+"Health3" and the Health3 logo are trademarks of Health3 AG. The MIT license
+grants you rights to the source code only — it does not grant rights to use
+the Health3 name or logo to identify your derivative works. If you fork this
+repository, please use a different name and brand for your version.
+
+This restriction does not prevent you from accurately stating that your
+software is "based on" or "derived from" the Health3 Biomarker Browser
+Extensions, or from referring to Health3 in documentation as the original
+source.
+
+---
+
+DATA SOURCES
+
+The biomarker data in shared/data/ is curated from publicly available clinical
+references including:
+
+- Tietz Textbook of Laboratory Medicine (Rifai, 2022/2023)
+- Mosby's Diagnostic & Laboratory Test Reference (Pagana, 2019)
+- StatPearls (NCBI Bookshelf)
+- Various peer-reviewed publications cited within ranges.json
+
+Reference range citations are preserved in the data files (source_label,
+article_name, article_year fields).
+
+---
+
+MEDICAL DISCLAIMER
+
+This software provides educational information about biomarkers. It is not a
+substitute for professional medical advice. Always consult a qualified
+healthcare provider for medical decisions. Reference ranges shown are not
+personalized to individual patients' age, sex, or medical history.

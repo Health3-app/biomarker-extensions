@@ -184,6 +184,8 @@ Pull requests for bug fixes, new features, or browser-compatibility improvements
 
 MIT — see [LICENSE](LICENSE).
 
+Trademark notice and data source attribution are in [NOTICE](NOTICE).
+
 You're free to fork, modify, and redistribute these extensions. We just ask that you don't impersonate Health3 or use our trademarks (logo, "Health3" name) on derivative works.
 
 ---
