@@ -67,7 +67,7 @@ Right-click any biomarker name on any webpage to instantly see what it means, re
   - **Unit Converter:** none
   - **Biomarker Explainer:** `contextMenus`, `activeTab`, `scripting` (only to inject the explanation tooltip when you trigger the right-click menu)
 
-Read the [Health3 Privacy Policy](https://www.health3.app/privacy) for the full statement.
+See [PRIVACY.md](PRIVACY.md) for the full extensions-specific privacy policy. (The [Health3 mobile app](https://www.health3.app/privacy) has its own separate policy.)
 
 ---
 
