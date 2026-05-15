@@ -97,8 +97,7 @@ biomarker-extensions/
 │   ├── _locales/en/messages.json
 │   └── icons/
 ├── scripts/
-│   ├── build.sh               # Multi-browser packaging (Chrome / Edge / Opera / Firefox)
-
+│   └── build.sh               # Multi-browser packaging (Chrome / Edge / Opera / Firefox)
 └── store-assets/              # Screenshots, promo tiles, store listings
 ```
 
@@ -129,18 +128,6 @@ chmod +x scripts/build.sh
 ```
 
 Outputs `.zip` files in `dist/` for Chrome, Edge, Opera, and Firefox. Each is store-ready.
-
-### Refresh biomarker data
-
-The biomarker data in `shared/data/` is a static export from the data source. To regenerate (internal use only — requires internal access):
-
-```bash
-REDACTED \
-REDACTED \
-REMOVED
-```
-
-The service key is never bundled with the extension. It's used only at build time.
 
 ---
 
